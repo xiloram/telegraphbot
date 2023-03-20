@@ -35,3 +35,5 @@ async def paste(_, message: Message):
         f"**Posted:** {page['url']}",
         disable_web_page_preview=True,
     )
+
+Tgraph.run()
