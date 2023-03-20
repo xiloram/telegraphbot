@@ -1,12 +1,9 @@
 import os
-from telegraph import upload_file
+from pyrogram.types import Message
 import pyrogram
+import capture_err
 from pyrogram import filters, Client
 from config import Config
-from pyrogram.types import (
-    InlineQueryResultArticle, InputTextMessageContent,
-    InlineKeyboardMarkup, InlineKeyboardButton,
-    CallbackQuery, InlineQuery)
 
 
 Tgraph = Client(
