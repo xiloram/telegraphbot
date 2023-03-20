@@ -16,7 +16,7 @@ Tgraph = Client(
    bot_token=Config.TG_BOT_TOKEN,
 )
 
-@app.on_message(filters.command("telegraph"))
+@Tgraph.on_message(filters.command("telegraph"))
 @capture_err
 async def paste(_, message: Message):
     reply = message.reply_to_message
