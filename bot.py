@@ -1,7 +1,6 @@
 import os
 from pyrogram.types import Message
 import pyrogram
-import capture_err
 from pyrogram import filters, Client
 from config import Config
 
